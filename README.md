@@ -68,7 +68,7 @@ Commit your changes
 Push to the branch
 Open a Pull Request
 ## 📞 Contact
-Author: Nguyen Thien An
-GitHub: (https://github.com/Thienan12703?tab=repositories)
-Project Link: https://github.com/yourusername/vehicle-counting-system
->>>>>>> 1ed653837f34e2d15228a1c48aeac597006d104e
+# Author: Nguyen Thien An
+# GitHub: (https://github.com/Thienan12703?tab=repositories)
+# Project Link: https://github.com/yourusername/vehicle-counting-system
+
