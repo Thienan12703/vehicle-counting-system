@@ -12,6 +12,7 @@ Advanced Evaluation: Computes AP metrics and generates confusion matrices for in
 Streamlit Dashboard: Interactive interface for model selection, inference on images/videos, and visualization
 Flexible Class Mapping: Supports dynamic label filtering and class remapping for VisDrone dataset
 🏗 Project Structure
+
 vehicle-counting-system/
 ├── streamlit_app.py          # Streamlit dashboard for inference & model management
 ├── train.py                  # YOLO model training script
@@ -23,6 +24,7 @@ vehicle-counting-system/
 │   └── Visdrone_test/        # Test dataset with YOLO-format labels
 ├── models/                   # Default directory for model weights (.pt)
 └── data.yaml                 # Dataset configuration
+
 🚀 Installation
 1. Clone the repository
 git clone https://github.com/yourusername/vehicle-counting-system.git
@@ -52,11 +54,13 @@ YOLO26m (960 resolution): Strong performance in class-specific detection (car, b
 YOLO26m-P2 (768 resolution): Excellent performance on small object detection due to P2 detection head, though limited in class diversity
 SAHI Impact: Significantly improves detection accuracy for small and densely packed vehicles
 Evaluation Consistency: Direct evaluation on VisDrone_test preserves dataset distribution and ensures reliable mAP measurement
+
 💡 Technical Highlights
 Addressed challenges of dense object detection and occlusion in aerial imagery
 Implemented SAHI (Slicing Aided Hyper Inference) to enhance small object detection
 Optimized Non-Maximum Suppression (NMS) for crowded traffic scenarios
 Designed evaluation pipeline for accurate AP/mAP computation with YOLO-format annotations
+
 🤝 Contributing
 Fork the repository
 Create a new branch (git checkout -b feature/AmazingFeature)
